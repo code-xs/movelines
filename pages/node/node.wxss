@@ -1,0 +1,177 @@
+page{
+  display: block;
+  min-height: 100%;
+  background: #fffbef;
+}
+.canvas{
+    width: 100%;
+}
+.canvasOverflow{
+    width: 100%;
+}
+.control{
+    width: 100%;
+    height: 100%;
+}
+.score {
+    display: flex;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    height: 200rpx;
+}
+.rule{
+  flex:1;
+    background:#173645;
+    color:#ff3429;
+    margin: 2rpx 2rpx;
+    text-align: center;
+    border-radius: 2rpx;  
+}
+
+.group{
+    flex:1;
+}
+
+.group0{
+    flex:1;
+    margin: 20rpx;
+    padding-top: 50rpx;
+    padding-bottom: 40rpx;
+    background:#eec700;
+    border-radius: 10rpx;
+    font-size: 1.4rem;
+}
+
+.title{
+    flex:1;
+    height: 120rpx;
+    line-height: 120rpx;
+    background:#285872;
+    color:aliceblue;
+    margin: 10rpx 10rpx 10rpx 10rpx;
+    text-align: center;
+    border-radius: 8rpx;
+}
+.scoredetail{
+    flex:1;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 10rpx;
+    font-size: 0.6rem;
+}
+.scoredetail1{
+    flex:1;
+    background:#b6ad9c;
+    color:aliceblue;
+    margin: 20rpx 20rpx;
+    text-align: center;
+    border-radius: 10rpx;
+}
+
+.buttonsStyle{
+    flex:1;
+    background:#edab63;
+    color:aliceblue;
+    margin: 2rpx 20rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.buttonsStyle:active {  
+  background-color: #e0a30a;
+}
+
+.subtitle{
+    padding-top: 10rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 40rpx;
+    color: #f5ede4;
+}
+.scorenumber{
+    font-size: 1.0rem;
+    line-height: 50rpx;
+    text-align: center;
+}
+
+.nodeTitle{
+    font-size: 1.0rem;
+    line-height: 40rpx;
+    font-weight: bold;
+}
+.node{
+    padding-top: 10rpx;
+    font-size: 1.2rem;
+    line-height: 50rpx;
+    text-align: center;
+}
+
+.descmax{
+    font-size: 0.8rem;
+    line-height: 40rpx;
+}
+.scoremax{
+    line-height: 50rpx;
+    text-align: center;
+}
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #151515;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #151515;
+}
+
+.modal-dialog {
+  width: 700rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 60%;
+  z-index: 9999;
+  background: #252525;
+  margin: 20rpx 20rpx;
+  border-radius: 36rpx;
+}
+
+.modal-title {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 36rpx;
+  color: #dedede;
+  text-align: center;
+}
+
+.modal-content {
+  padding: 50rpx 32rpx;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 86rpx;
+  border-top: 1px solid #dedede;
+  font-size: 34rpx;
+  line-height: 86rpx;
+}
+
+.btn-normal {
+  width: 50%;
+  color: #dedede;
+  text-align: center;
+}
+
+.btn-select {
+  width: 50%;
+  color: aliceblue;
+  text-align: center;
+  border-right: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+}

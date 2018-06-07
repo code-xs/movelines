@@ -1,0 +1,4 @@
+<view class="control">
+  <button class="buttonsStyle" >打卡</button>
+  <text class="startGames" bindtap="onClick" >开始游戏</text>
+</view>

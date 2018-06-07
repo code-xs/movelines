@@ -1,0 +1,6 @@
+<view class="control">
+    <view class="{{ index < lockLevel?'lock-grid':'unlock-grid'}}" wx:for="{{level}}" bindtap="onLevelSelect" wx:key="*this">
+        <view class="times">{{times[index]}}</view>  
+        <view id="{{index}}" class="{{ index < lockLevel?'lock':'unlock'}}"> {{index+1}}</view>
+    </view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/node/node",
+    "pages/level/level",
+    "pages/logs/logs",
+    "pages/main/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fffbef",
+    "navigationBarTitleText": "最强相交线",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false
+  }
+}

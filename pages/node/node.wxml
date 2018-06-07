@@ -1,0 +1,26 @@
+<!--snake.wxml-->
+<view class="control" bindtouchstart="tapStart" bindtouchmove="tapMove" bindtouchend="tapEnd">
+<view class="score">
+    <view class="scoredetail">
+        <view class="group0">
+          <view class="nodeTitle">解锁线条</view>
+          <view class="node">{{nodes}}</view>
+        </view>
+    </view>
+    <view class="group">
+      <view class="scoredetail1">
+          <view class="subtitle">当前关卡</view>
+          <view class="scorenumber">{{progress}}</view>
+      </view>
+      <button bindtap="levelSelect" id="select_bt" class="buttonsStyle">关  卡</button>
+    </view>
+    <view class="group">
+      <view class="scoredetail1">
+          <view class="subtitle">历史最高</view>
+          <view class="scorenumber">{{maxProgress}}</view>
+      </view>
+      <button class="buttonsStyle" open-type='share'>求助好友</button>
+    </view>
+</view>
+<canvas class=".canvas" disable-scroll="true" style="height:{{Height}}px;" bindtap="onClick" canvas-id="myCanvas"/>
+</view>
